@@ -1,30 +1,39 @@
 {
    "search":{
-      "status":{
-         "code":"1200",
-         "message":"valid user"
-      },
-      "credential":[
-         {
-            "type_doc":"DNI",
-            "doc":23400297,
-            "affinity_group":"05",
-            "credential":"3086251500017131527",
-            "status_cred":"ACTIVE",
-            "validity_days":"15",
-            "cred_platform":"todopago_365"
-         },
-         {
-            "type_doc":"DNI",
-            "doc":23400297,
-            "affinity_group":"01",
-            "credential":"3086251500017123456",
-            "status_cred":"ACTIVE",
-            "validity_days":"90",
-            "cred_platform":"todopago_365"
-         }
-      ]
+   "status": {
+      "code": "1200",  
+      "message": "subscription"
    },
+   "credential": [
+      {
+         "type_doc": "dni",
+         "doc": "23037611",
+         "affinity_group": “1”, 
+         "credential": "3086250020613414102",
+         "status_cred": "Cancelada", 
+         "validity_days": null,
+         "cred_platform": "365"
+      },
+      {
+         "type_doc": "dni",
+         "doc": "23037611",
+         "affinity_group": “1”, 
+         "credential": "3086250520613414101",
+         "status_cred": "Cancelada", 
+         "validity_days": null,
+         "cred_platform": "365"
+      }
+      {
+         "type_doc": "dni",
+         "doc": "23037611",
+         "affinity_group": “1”, 
+         "credential": "3086250520613414101",
+         "status_cred": "Activa", 
+         "validity_days": null,
+         "cred_platform": "365"
+      }
+   ]
+},
    "trial":{
       "status":{
          "code":"1200",
