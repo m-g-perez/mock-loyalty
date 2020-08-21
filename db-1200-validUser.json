@@ -1,0 +1,54 @@
+{
+   "search":{
+      "status":{
+         "code":"1200",
+         "message":"valid user"
+      },
+      "credential":[
+         {
+            "type_doc":"DNI",
+            "doc":23400297,
+            "affinity_group":"05",
+            "credential":"3086251500017131527",
+            "status_cred":"ACTIVE",
+            "validity_days":"15",
+            "cred_platform":"todopago_365"
+         },
+         {
+            "type_doc":"DNI",
+            "doc":23400297,
+            "affinity_group":"01",
+            "credential":"3086251500017123456",
+            "status_cred":"ACTIVE",
+            "validity_days":"90",
+            "cred_platform":"todopago_365"
+         }
+      ]
+   },
+   "trial":{
+      "status":{
+         "code":"1200",
+         "message":"valid user"
+      },
+      "credential":[
+         {
+            "type_doc":"DNI",
+            "doc":25900030,
+            "affinity_group":"06",
+            "credential":"3086251500017135623",
+            "status_cred":"INACTIVE",
+            "validity_days":"20",
+            "cred_platform":"todopago_365"
+         },
+         {
+            "type_doc":"DNI",
+            "doc":25900030,
+            "affinity_group":"05",
+            "credential":"3086251500017123456",
+            "status_cred":"ACTIVE",
+            "validity_days":"60",
+            "cred_platform":"todopago_365"
+         }
+      ]
+   }
+}
